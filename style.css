@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+.banner{
+    height:90vh;
+    width:100%;
+    background-image:url(img/photo-1580927752452-89d86da3fa0a.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color:#ffffffce;
+    width:100%;
+    text-align: center;
+}
+.container h2{
+    color:#7b7143;
+    font-size: 54px;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.container p{
+    font-size: 23px;
+    margin: 15px 0;
+    color:rgb(196, 179, 213);
+}
+.container button{
+    color:#fff;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-transform:capitalize;
+    font-family: "Gamja Flower", sans-serif;
+}
+.container button:hover{
+    background-color: #068858;
+    transition: 0.5s ease-in;
+}
